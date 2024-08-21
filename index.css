@@ -19,6 +19,13 @@ body {
     overflow: hidden; /* Remove a barra de rolagem do body */
 }
 
+.nome h2{
+    width: 100%;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 10px 0px 0px 30px;
+}
+
 /* Personalizando a barra de rolagem */
 body::-webkit-scrollbar {
     width: 10px; /* Largura da barra de rolagem */
@@ -97,7 +104,7 @@ header {
 main {
     flex: 1;
     display: flex;
-    padding: 20px;
+    padding: 0px 20px 20px 20px;
     overflow: hidden; /* Remove a barra de rolagem do main */
 }
 
